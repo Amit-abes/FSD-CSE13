@@ -35,7 +35,8 @@ const rollnum ="123456789";
 const digit = String(rollnum).split("");
 console.log(digit);
 
-
+let inWords = "";
 digit.forEach((d) => {
-    inword += " " + towords(Number(d));
+    inWords += " " + toWords(Number(d));
 });
+console.log(inWords);
